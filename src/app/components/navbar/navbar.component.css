@@ -1,0 +1,21 @@
+/* Show it's not fixed to the top */
+body {
+  min-height: 75rem;
+}
+
+.navbar-brand{
+  width: 5%;
+}
+
+a:hover{
+  cursor: pointer;
+}
+
+img{
+  width: 70%;
+  margin-right: 1rem;
+}
+
+.active{
+  color: #fdfd5b !important;
+}

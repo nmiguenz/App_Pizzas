@@ -1,0 +1,13 @@
+img{
+  height: 4rem;
+  width: 5rem;
+}
+
+.listaPaises{
+  height: 25rem;
+  overflow-y: scroll;
+}
+
+img:hover{
+  transform: scale(1.1);
+}

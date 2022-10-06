@@ -1,0 +1,17 @@
+{
+  "hosting": {
+    "site": "pplaboiv-4a2b8",
+    "public": "dist/parcial",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+.container {
+  max-width: 960px;
+}
+
+img{
+  width: 6.5rem;
+  height: 4.5rem;
+}
+
+.error{
+  color: red;
+}

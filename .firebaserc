@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "primer-parcial-labo-iv": {
+      "hosting": {
+        "parcial": [
+          "pplaboiv-4a2b8"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "primer-parcial-labo-iv"
+  }
+}
