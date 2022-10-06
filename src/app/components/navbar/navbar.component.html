@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-md navbar-dark bg-dark mb-4">
   <div class="container-fluid">
-    <a class="navbar-brand" (click)="cambiarPantalla(true)"><span><img src="../../../assets/candado.png" alt=""></span></a>
+    <a class="navbar-brand" (click)="cambiarPantalla(true)"><span><img src="../../../assets/caja-de-pizza.png" alt=""></span></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -12,9 +12,9 @@
         <li class="nav-item">
           <a class="nav-link" [routerLink]="['detalle']" routerLinkActive="active">Detalle repartidor</a>
         </li>
-        <!-- <li class="nav-item">
-          <a class="nav-link" routerLink="container" *ngIf="admin">ABM Container</a>
-        </li> -->
+        <li class="nav-item">
+          <a class="nav-link" [routerLink]="['pizzas']" routerLinkActive="active" *ngIf="admin">Salen pizzas</a>
+        </li>
       </ul>
       <div class="d-flex">
         <!-- <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"> -->

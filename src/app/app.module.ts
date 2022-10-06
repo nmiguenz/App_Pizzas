@@ -20,6 +20,11 @@ import { ListadoRepartidorComponent } from './components/listado-repartidor/list
 import { DetalleComponent } from './components/detalle/detalle.component';
 import { DetallePaisComponent } from './components/detalle-pais/detalle-pais.component';
 import { TransformBooleanPipe } from './pipes/transform-boolean.pipe';
+import { AltaPizzaComponent } from './components/alta-pizza/alta-pizza.component';
+import { BajaPizzaComponent } from './components/baja-pizza/baja-pizza.component';
+import { ModificarPizzaComponent } from './components/modificar-pizza/modificar-pizza.component';
+import { SalenPizzasComponent } from './pages/salen-pizzas/salen-pizzas.component';
+import { ListaPizzasComponent } from './components/lista-pizzas/lista-pizzas.component';
 
 
 @NgModule({
@@ -34,6 +39,11 @@ import { TransformBooleanPipe } from './pipes/transform-boolean.pipe';
     DetalleComponent,
     DetallePaisComponent,
     TransformBooleanPipe,
+    AltaPizzaComponent,
+    BajaPizzaComponent,
+    ModificarPizzaComponent,
+    SalenPizzasComponent,
+    ListaPizzasComponent,
   ],
   imports: [
     BrowserModule,

@@ -17,12 +17,12 @@ export class AppComponent implements OnInit,  DoCheck {
 
   ngOnInit(): void {
     this.islogged = this.auth.comprobarEstado();
-    // this.esAdmin = this.auth.comprobarPerfilAdmin();
+    this.esAdmin = this.auth.comprobarPerfilAdmin();
   }
 
   ngDoCheck(): void {
     this.islogged = this.auth.comprobarEstado();
-    // this.esAdmin = this.auth.comprobarPerfilAdmin();
+    this.esAdmin = this.auth.comprobarPerfilAdmin();
   }
 
 }
