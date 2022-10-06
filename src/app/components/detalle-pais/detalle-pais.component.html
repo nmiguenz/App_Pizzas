@@ -1,0 +1,12 @@
+<div class="h-100 p-5 bg-light border rounded-3" *ngIf="repartidorParaMostrar">
+  <div class="d-flex justify-content-between">
+    <h2>{{repartidorParaMostrar.nacionalidad.translations.spa.common}}</h2>
+    <span class="text-muted"><img [src]=repartidorParaMostrar.nacionalidad.flags.svg alt=""> </span>
+  </div>
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item"><span>Capital: </span>
+      {{repartidorParaMostrar.nacionalidad.capital}}</li>
+      <li class="list-group-item"><span>Continente: </span>{{repartidorParaMostrar.nacionalidad.continents}}</li>
+    <li class="list-group-item"> <span>Población: </span> {{repartidorParaMostrar.nacionalidad.population}}</li>
+  </ul>
+</div>

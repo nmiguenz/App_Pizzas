@@ -15,6 +15,11 @@ import { AngularFireModule } from '@angular/fire/compat';
 import { AngularFirestoreModule } from '@angular/fire/compat/firestore';
 import { AltaPrimeraComponent } from './pages/alta-primera/alta-primera.component';
 import { ListadoPaisesComponent } from './components/listado-paises/listado-paises.component';
+import { DetalleRepartidorComponent } from './pages/detalle-repartidor/detalle-repartidor.component';
+import { ListadoRepartidorComponent } from './components/listado-repartidor/listado-repartidor.component';
+import { DetalleComponent } from './components/detalle/detalle.component';
+import { DetallePaisComponent } from './components/detalle-pais/detalle-pais.component';
+import { TransformBooleanPipe } from './pipes/transform-boolean.pipe';
 
 
 @NgModule({
@@ -24,6 +29,11 @@ import { ListadoPaisesComponent } from './components/listado-paises/listado-pais
     NavbarComponent,
     AltaPrimeraComponent,
     ListadoPaisesComponent,
+    DetalleRepartidorComponent,
+    ListadoRepartidorComponent,
+    DetalleComponent,
+    DetallePaisComponent,
+    TransformBooleanPipe,
   ],
   imports: [
     BrowserModule,

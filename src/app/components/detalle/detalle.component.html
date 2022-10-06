@@ -1,0 +1,10 @@
+<div class="h-100 p-5 text-white bg-dark rounded-3" *ngIf="repartidorParaMostrar">
+  <h2>{{repartidorParaMostrar.nombre}}</h2>
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item"><span>DNI: </span>
+      {{repartidorParaMostrar.dni}}</li>
+    <li class="list-group-item"> <span>Edad: </span> {{repartidorParaMostrar.edad}}</li>
+    <li class="list-group-item"><span>Capacidad Transporte: </span>{{repartidorParaMostrar.capacidadTransporte}}</li>
+    <li class="list-group-item"><span>Unidad propia: </span>{{repartidorParaMostrar.unidadPropia | transformBoolean}}</li>
+  </ul>
+</div>

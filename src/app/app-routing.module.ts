@@ -1,3 +1,4 @@
+import { DetalleRepartidorComponent } from './pages/detalle-repartidor/detalle-repartidor.component';
 import { AuthGuard } from './guards/auth.guard';
 import { ControlBienvenidaGuard } from './guards/control-bienvenida.guard';
 import { BienvenidaComponent } from './pages/bienvenida/bienvenida.component';
@@ -9,6 +10,7 @@ const routes: Routes = [
   { path: 'bienvenida', component: BienvenidaComponent, canActivate: [ControlBienvenidaGuard]},
   { path: 'ingreso', loadChildren: () => import('./modules/ingreso/ingreso.module').then(m => m.IngresoModule) },
   { path: 'alta', component: AltaPrimeraComponent, canActivate: [AuthGuard]},
+  { path: 'detalle', component: DetalleRepartidorComponent, canActivate: [AuthGuard]},
   { path: '',   redirectTo: '/bienvenida', pathMatch: 'full' },
 ];
 
